@@ -1,0 +1,66 @@
+/*Start Form*/
+body {
+    background-color: #f1f1f1;
+}
+.contact-form {
+    max-width: 450px;
+    margin: 20px auto;
+}
+.contact-form input{
+    padding-left: 32px;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 5px;
+}
+.contact-form textarea {
+    height: 300px !important;
+}
+.contact-form input:not([type='submit']) + i{
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #ddd;
+}
+.contact-form .asterisx {
+    /* float: right; */
+    height: 0px;
+    /* overflow: hidden; */
+    font-size: 22px;
+    color: #F00;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+
+}
+
+.contact-form .send-icon{
+    float: none;
+    height: 14px;
+    display: block;
+    position: relative;
+    top: -32px;
+    left: 7px;
+    color: #fff;
+}
+.contact-form .form-group{
+    margin-bottom: 0;
+    position: relative;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+}
+.alert {
+    margin-bottom: 10px !important;
+}
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    display: none;
+}
+/*End Form*/
